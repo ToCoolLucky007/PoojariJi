@@ -9,8 +9,8 @@ const faqs = [
     category: "General Questions",
     questions: [
       {
-        question: "What is Pandit Jee Online?",
-        answer: "Pandit Jee Online is a platform that connects devotees with qualified and experienced pandits for various Hindu religious ceremonies, pujas, and rituals. We ensure authentic services performed according to traditional Vedic practices."
+        question: "What is PujaariJi?",
+        answer: "PujaariJi is a platform that connects devotees with qualified and experienced pandits for various Hindu religious ceremonies, pujas, and rituals. We ensure authentic services performed according to traditional Vedic practices."
       },
       {
         question: "How do I book a puja or ceremony?",
@@ -21,7 +21,7 @@ const faqs = [
         answer: "Yes, all our pandits are thoroughly vetted, highly qualified, and have extensive experience in performing Hindu religious ceremonies. They are well-versed in Sanskrit, Vedic traditions, and have proper knowledge of all rituals."
       },
       {
-        question: "Do you provide services outside Delhi?",
+        question: "Do you provide services outside Delhi and Chandigarh?",
         answer: "Yes, we provide services across major cities in India. For outstation services, additional travel charges may apply. Please mention your location while booking, and we'll confirm availability."
       }
     ]
@@ -134,7 +134,7 @@ export default function FAQ() {
           <div className="flex items-center justify-between h-16">
             <Link href="/" className="flex items-center space-x-2">
               <div className="text-2xl">🕉️</div>
-              <h1 className="text-xl font-bold">Pandit Jee Online</h1>
+              <h1 className="text-xl font-bold">Pujaari Ji</h1>
             </Link>
             <Link href="/">
               <Button variant="secondary" size="sm">
@@ -197,17 +197,17 @@ export default function FAQ() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
               <div>
                 <h4 className="font-semibold text-orange-700 mb-2">Phone Support</h4>
-                <p>+91 9876543210</p>
+                <p>+91 9310065609</p>
                 <p className="text-gray-600">9 AM - 8 PM Daily</p>
               </div>
               <div>
                 <h4 className="font-semibold text-orange-700 mb-2">Email Support</h4>
-                <p>support@panditjeeonline.com</p>
+                <p>support@pujaariji.in</p>
                 <p className="text-gray-600">Response within 4 hours</p>
               </div>
               <div>
                 <h4 className="font-semibold text-orange-700 mb-2">WhatsApp</h4>
-                <p>+91 9876543210</p>
+                <p>+91 9310065609</p>
                 <p className="text-gray-600">Quick support available</p>
               </div>
             </div>

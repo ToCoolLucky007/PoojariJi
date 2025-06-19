@@ -56,7 +56,7 @@ export default function Booking() {
           <div className="flex items-center justify-between h-16">
             <Link href="/" className="flex items-center space-x-2">
               <div className="text-2xl">🕉️</div>
-              <h1 className="text-xl font-bold">Pandit Jee Online</h1>
+              <h1 className="text-xl font-bold">Pujaari Ji</h1>
             </Link>
             <Link href="/">
               <Button variant="secondary" size="sm">
@@ -270,19 +270,19 @@ export default function Booking() {
             <div>
               <Phone className="h-8 w-8 mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-2">Call Us</h3>
-              <p className="text-lg">+91 9876543210</p>
+              <p className="text-lg">+91 9310065609</p>
               <p>Available 24/7</p>
             </div>
             <div>
               <Mail className="h-8 w-8 mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-2">Email Us</h3>
-              <p className="text-lg">bookings@panditjeeonline.com</p>
+              <p className="text-lg">info@pujaariji.in</p>
               <p>Response within 4 hours</p>
             </div>
             <div>
               <MessageSquare className="h-8 w-8 mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-2">WhatsApp</h3>
-              <p className="text-lg">+91 9876543210</p>
+              <p className="text-lg">+91 9310065609</p>
               <p>Quick support available</p>
             </div>
           </div>

@@ -1067,7 +1067,7 @@ The Katha is simple yet powerful, and can be done at home with the help of a lea
                     <div className="flex items-center justify-between h-16">
                         <Link href="/" className="flex items-center space-x-2">
                             <div className="text-2xl">🕉️</div>
-                            <h1 className="text-xl font-bold">Pandit Jee Online</h1>
+                            <h1 className="text-xl font-bold">Pujaari Ji</h1>
                         </Link>
                         <Link href={`/services/${category}`}>
                             <Button variant="secondary" size="sm">
@@ -1204,15 +1204,15 @@ The Katha is simple yet powerful, and can be done at home with the help of a lea
                                         <div className="space-y-2 text-sm">
                                             <div className="flex items-center">
                                                 <Phone className="h-4 w-4 mr-2 text-orange-600" />
-                                                <span>+91 9876543210</span>
+                                                <span>+91 9310065609</span>
                                             </div>
                                             <div className="flex items-center">
                                                 <Mail className="h-4 w-4 mr-2 text-orange-600" />
-                                                <span>bookings@panditjeeonline.com</span>
+                                                <span>info@pujaariji.in</span>
                                             </div>
                                             <div className="flex items-center">
                                                 <MapPin className="h-4 w-4 mr-2 text-orange-600" />
-                                                <span>New Delhi, India</span>
+                                                <span>Punjab, India</span>
                                             </div>
                                         </div>
                                     </div>

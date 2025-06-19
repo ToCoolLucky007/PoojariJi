@@ -12,7 +12,7 @@ export default function RefundPolicy() {
           <div className="flex items-center justify-between h-16">
             <Link href="/" className="flex items-center space-x-2">
               <div className="text-2xl">🕉️</div>
-              <h1 className="text-xl font-bold">Pandit Jee Online</h1>
+              <h1 className="text-xl font-bold">Pujaari Ji</h1>
             </Link>
             <Link href="/">
               <Button variant="secondary" size="sm">
@@ -38,13 +38,13 @@ export default function RefundPolicy() {
         <Card className="shadow-lg">
           <CardHeader>
             <CardTitle className="text-2xl">Refund & Cancellation Policy</CardTitle>
-            <p className="text-gray-600">Last updated: January 1, 2024</p>
+            <p className="text-gray-600">Last updated: June 1, 2025</p>
           </CardHeader>
           <CardContent className="prose prose-lg max-w-none">
             <div className="space-y-8">
               <section>
                 <h2 className="text-xl font-semibold mb-4">1. General Refund Policy</h2>
-                <p>At Pandit Jee Online, we strive to provide the best religious services. However, we understand that circumstances may require cancellations. Our refund policy is designed to be fair to both our customers and service providers.</p>
+                <p>At PujaariJi, we strive to provide the best religious services. However, we understand that circumstances may require cancellations. Our refund policy is designed to be fair to both our customers and service providers.</p>
               </section>
 
               <section>
@@ -102,7 +102,7 @@ export default function RefundPolicy() {
 
               <section>
                 <h2 className="text-xl font-semibold mb-4">5. Service-Specific Policies</h2>
-                
+
                 <div className="space-y-4">
                   <div>
                     <h3 className="text-lg font-semibold">Multi-Day Events (7+ days)</h3>
@@ -168,9 +168,9 @@ export default function RefundPolicy() {
                 <h2 className="text-xl font-semibold mb-4">9. Contact for Refunds</h2>
                 <p className="mb-4">For refund requests or questions:</p>
                 <ul className="list-none space-y-2">
-                  <li><strong>Email:</strong> refunds@panditjeeonline.com</li>
-                  <li><strong>Phone:</strong> +91 9876543210</li>
-                  <li><strong>WhatsApp:</strong> +91 9876543210</li>
+                  <li><strong>Email:</strong> info@pujaariji.in</li>
+                  <li><strong>Phone:</strong> +91 9310065609</li>
+                  <li><strong>WhatsApp:</strong> +91 9310065609</li>
                   <li><strong>Hours:</strong> 9:00 AM - 8:00 PM (Monday to Sunday)</li>
                 </ul>
               </section>

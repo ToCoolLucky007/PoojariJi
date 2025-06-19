@@ -110,7 +110,7 @@ export default function Home() {
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center space-x-2">
               <div className="text-2xl">🕉️</div>
-              <h1 className="text-xl font-bold">Pandit Jee Online</h1>
+              <h1 className="text-xl font-bold">Pujaari Ji</h1>
             </div>
 
             <nav className="hidden md:flex items-center space-x-6">
@@ -139,7 +139,7 @@ export default function Home() {
             <div className="flex items-center space-x-4">
               <div className="hidden lg:flex items-center space-x-2 text-sm">
                 <Phone className="h-4 w-4" />
-                <span>+91 9876543210</span>
+                <span>+91 9310065609</span>
               </div>
               <Link
 
@@ -283,20 +283,20 @@ export default function Home() {
             <div>
               <Phone className="h-8 w-8 mx-auto mb-4 text-orange-400" />
               <h3 className="text-xl font-semibold mb-2">Call Us</h3>
-              <p>+91 9876543210</p>
-              <p>+91 9876543211</p>
+              <p>+91 9310065609</p>
+
             </div>
             <div>
               <Mail className="h-8 w-8 mx-auto mb-4 text-orange-400" />
               <h3 className="text-xl font-semibold mb-2">Email Us</h3>
-              <p>info@panditjeeonline.com</p>
-              <p>bookings@panditjeeonline.com</p>
+              <p>info@pujaariji.in</p>
+
             </div>
             <div>
               <MapPin className="h-8 w-8 mx-auto mb-4 text-orange-400" />
               <h3 className="text-xl font-semibold mb-2">Visit Us</h3>
-              <p>123 Temple Street</p>
-              <p>New Delhi, India - 110001</p>
+              <p>9th Floor, Tricity Trade Tower </p>
+              <p>Zirakpur, Punjab 140603</p>
             </div>
           </div>
         </div>
@@ -309,7 +309,7 @@ export default function Home() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <div className="text-2xl">🕉️</div>
-                <h3 className="text-xl font-bold">Pandit Jee Online</h3>
+                <h3 className="text-xl font-bold">Pujaari Ji</h3>
               </div>
               <p className="text-gray-400">
                 Authentic Hindu religious services with traditional wisdom and modern convenience.
@@ -346,7 +346,7 @@ export default function Home() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Pandit Jee Online. All rights reserved.</p>
+            <p>&copy; 2025 PujaariJi. All rights reserved.</p>
           </div>
         </div>
       </footer>
