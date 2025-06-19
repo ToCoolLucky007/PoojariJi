@@ -9,7 +9,7 @@ export default function Pandits() {
   const pandits = [
     {
       name: "Pandit Rajesh Sharma",
-      image: "https://images.pexels.com/photos/8088488/pexels-photo-8088488.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "/images/pandit/pandit1.png",
       specialization: "Vedic Astrology & Karma Kand",
       experience: "25+ Years",
       rating: 4.9,
@@ -21,7 +21,7 @@ export default function Pandits() {
     },
     {
       name: "Pandit Suresh Mishra",
-      image: "https://images.pexels.com/photos/8088495/pexels-photo-8088495.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "/images/pandit/pandit2.png",
       specialization: "Marriage Ceremonies & Rituals",
       experience: "20+ Years",
       rating: 4.8,
@@ -33,7 +33,7 @@ export default function Pandits() {
     },
     {
       name: "Pandit Arun Joshi",
-      image: "https://images.pexels.com/photos/8088490/pexels-photo-8088490.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "/images/pandit/pandit3.png",
       specialization: "Puja Services & Festivals",
       experience: "15+ Years",
       rating: 4.9,
@@ -45,7 +45,7 @@ export default function Pandits() {
     },
     {
       name: "Pandit Vikram Pandey",
-      image: "https://images.pexels.com/photos/8088493/pexels-photo-8088493.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "/images/pandit/pandit4.png",
       specialization: "Spiritual Counseling",
       experience: "18+ Years",
       rating: 4.7,
@@ -152,18 +152,21 @@ export default function Pandits() {
 
                   {/* Actions */}
                   <div className="flex space-x-2">
-                    <button
-                      className={`flex-1 py-2 px-4 rounded-full text-sm font-medium transition-all duration-200 ${pandit.available
-                        ? 'bg-gradient-to-r from-orange-500 to-red-500 text-white hover:shadow-lg transform hover:scale-105'
-                        : 'bg-gray-200 text-gray-500 cursor-not-allowed'
-                        }`}
-                      disabled={!pandit.available}
-                    >
-                      {pandit.available ? 'Book Now' : 'Not Available'}
-                    </button>
-                    <button className="px-4 py-2 border border-orange-500 text-orange-600 rounded-full text-sm hover:bg-orange-50 transition-colors">
+
+                    <Link href={pandit.available ? '/booking' : '#'} >
+                      <button
+                        className={`flex-1 py-2 px-4 rounded-full text-sm font-medium transition-all duration-200 ${pandit.available
+                          ? 'bg-gradient-to-r from-orange-500 to-red-500 text-white hover:shadow-lg transform hover:scale-105'
+                          : 'bg-gray-200 text-gray-500 cursor-not-allowed'
+                          }`}
+                        disabled={!pandit.available}
+                      >
+                        {pandit.available ? 'Book Now' : 'Not Available'}
+                      </button>
+                    </Link>
+                    {/* <button className="px-4 py-2 border border-orange-500 text-orange-600 rounded-full text-sm hover:bg-orange-50 transition-colors">
                       View Profile
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               </div>
