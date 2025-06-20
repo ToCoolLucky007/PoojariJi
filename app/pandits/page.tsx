@@ -34,7 +34,7 @@ export default function Pandits() {
     {
       name: "Pandit Arun Joshi",
       image: "/images/pandit/pandit3.png",
-      specialization: "Puja Services & Festivals",
+      specialization: "Pooja Services & Festivals",
       experience: "15+ Years",
       rating: 4.9,
       reviews: 634,
@@ -65,7 +65,7 @@ export default function Pandits() {
           <div className="flex items-center justify-between h-16">
             <Link href="/" className="flex items-center space-x-2">
               <div className="text-2xl">🕉️</div>
-              <h1 className="text-xl font-bold">Pujaari Ji</h1>
+              <h1 className="text-xl font-bold">Poojari Ji</h1>
             </Link>
             <Link href="/">
               <Button variant="secondary" size="sm">
@@ -229,7 +229,7 @@ export default function Pandits() {
             <div>
               <Mail className="h-8 w-8 mx-auto mb-4 text-orange-400" />
               <h3 className="text-xl font-semibold mb-2">Email Us</h3>
-              <p>info@pujaariji.in</p>
+              <p>info@poojariji.in</p>
 
             </div>
             <div>
@@ -248,7 +248,7 @@ export default function Pandits() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <div className="text-2xl">🕉️</div>
-                <h3 className="text-xl font-bold">Pujaari Ji</h3>
+                <h3 className="text-xl font-bold">Poojari Ji</h3>
               </div>
               <p className="text-gray-400">
                 Authentic Hindu religious services with traditional wisdom and modern convenience.
@@ -266,11 +266,11 @@ export default function Pandits() {
               <h4 className="text-lg font-semibold mb-4">Services</h4>
               <ul className="space-y-2 text-gray-400">
                 <li><Link href="/services/puran-katha" className="hover:text-white transition-colors">Puran Katha</Link></li>
-                <li><Link href="/services/shanti-puja" className="hover:text-white transition-colors">Shanti Puja</Link></li>
+                <li><Link href="/services/shanti-pooja" className="hover:text-white transition-colors">Shanti Pooja</Link></li>
                 <li><Link href="/services/havan" className="hover:text-white transition-colors">Havan</Link></li>
                 <li><Link href="/services/sanskar-vidhi" className="hover:text-white transition-colors">Sanskar Vidhi</Link></li>
-                <li><Link href="/services/sthapan-puja" className="hover:text-white transition-colors">Sthapan Puja</Link></li>
-                <li><Link href="/services/festival-puja" className="hover:text-white transition-colors">Festival Puja</Link></li>
+                <li><Link href="/services/sthapan-pooja" className="hover:text-white transition-colors">Sthapan Pooja</Link></li>
+                <li><Link href="/services/festival-pooja" className="hover:text-white transition-colors">Festival Pooja</Link></li>
               </ul>
             </div>
             <div>
@@ -284,7 +284,7 @@ export default function Pandits() {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 PujaariJi. All rights reserved.</p>
+            <p>&copy; 2025 PoojariJi. All rights reserved.</p>
           </div>
         </div>
       </footer>

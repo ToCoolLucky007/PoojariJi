@@ -40,8 +40,8 @@ export const serviceData = {
       }
     ]
   },
-  'shanti-puja': {
-    title: 'Shanti Puja',
+  'shanti-pooja': {
+    title: 'Shanti Pooja',
     description: 'Peace ceremonies and rituals to bring harmony, prosperity, and remove negative influences',
     icon: '🕉️',
     color: 'from-orange-600 to-red-600',
@@ -65,7 +65,7 @@ export const serviceData = {
       {
         id: 'nakshatra-shanti',
         name: 'Nakshatra Shanti',
-        description: 'Specialized puja to pacify malefic effects of birth star and enhance positive planetary influences.',
+        description: 'Specialized pooja to pacify malefic effects of birth star and enhance positive planetary influences.',
         image: '/images/services/nakshatra.jpg',
         duration: '1 Day',
         participants: '1-15'
@@ -200,8 +200,8 @@ export const serviceData = {
       }
     ]
   },
-  'sthapan-puja': {
-    title: 'Sthapan Puja',
+  'sthapan-pooja': {
+    title: 'Sthapan Pooja',
     description: 'Installation and establishment ceremonies for deities and sacred spaces',
     icon: '🏛️',
     color: 'from-orange-600 to-red-600',
@@ -256,65 +256,65 @@ export const serviceData = {
       }
     ]
   },
-  'festival-puja': {
-    title: 'Festival Puja',
+  'festival-pooja': {
+    title: 'Festival Pooja',
     description: 'Traditional festival celebrations and seasonal worship ceremonies',
     icon: '🎉',
     color: 'from-orange-600 to-red-600',
     subcategories: [
       {
-        id: 'office-puja',
-        name: 'Office Puja',
+        id: 'office-pooja',
+        name: 'Office Pooja',
         description: 'Workplace blessing ceremony for business prosperity, employee welfare, and success.',
-        image: '/images/services/office-puja.png',
+        image: '/images/services/office-pooja.png',
         duration: '2 Hours',
         participants: '10-100'
       },
       {
-        id: 'diwali-puja',
-        name: 'Diwali Puja',
-        description: 'Festival of lights celebration with Lakshmi puja for wealth and prosperity.',
-        image: '/images/services/diwali-puja.jpg',
+        id: 'diwali-pooja',
+        name: 'Diwali Pooja',
+        description: 'Festival of lights celebration with Lakshmi pooja for wealth and prosperity.',
+        image: '/images/services/diwali-pooja.jpg',
         duration: '2 Hours',
         participants: '5-50'
       },
       {
-        id: 'navratri-puja',
-        name: 'Navratri Puja',
+        id: 'navratri-pooja',
+        name: 'Navratri Pooja',
         description: 'Nine-day festival celebrating Divine Mother with daily prayers and offerings.',
-        image: '/images/services/navratri-puja.png',
+        image: '/images/services/navratri-pooja.png',
         duration: '9 Days',
         participants: '25-500'
       },
       {
-        id: 'durga-puja',
-        name: 'Durga Puja',
+        id: 'durga-pooja',
+        name: 'Durga Pooja',
         description: 'Grand celebration of Goddess Durga with elaborate decorations and cultural programs.',
-        image: '/images/services/durga-puja.webp',
+        image: '/images/services/durga-pooja.webp',
         duration: '5 Days',
         participants: '100-5000'
       },
       {
-        id: 'lakshmi-puja',
-        name: 'Lakshmi Puja',
+        id: 'lakshmi-pooja',
+        name: 'Lakshmi Pooja',
         description: 'Worship of Goddess Lakshmi for wealth, abundance, and material prosperity.',
-        image: '/images/services/lakshmi-puja.jpg',
+        image: '/images/services/lakshmi-pooja.jpg',
         duration: '2 Hours',
         participants: '5-30'
       },
       {
-        id: 'vishwakarma-puja',
-        name: 'Vishwakarma Puja',
+        id: 'vishwakarma-pooja',
+        name: 'Vishwakarma Pooja',
         description: 'Worship of Lord Vishwakarma, the divine architect, for skill and craftsmanship.',
-        image: '/images/services/vishwakarma-puja.jpg',
+        image: '/images/services/vishwakarma-pooja.jpg',
         duration: '2 Hours',
         participants: '10-100'
       },
       {
-        id: 'ganesh-puja',
-        name: 'Ganesh Puja',
+        id: 'ganesh-pooja',
+        name: 'Ganesh Pooja',
         description: 'Celebration of Lord Ganesha with elaborate decorations and community participation.',
-        image: '/images/services/ganesh-puja.jpeg',
+        image: '/images/services/ganesh-pooja.jpeg',
         duration: '11 Days',
         participants: '50-5000'
       },

@@ -95,7 +95,7 @@ The divine presence of Lord Ram brings peace, courage, and purification to the m
                     'Daily discourse with Ramayan recitation',
                     'Hanuman Chalisa and bhajans',
                     'Aarti and prasad for all participants',
-                    'Optional Sundar Kand Paath or Hanuman Puja',
+                    'Optional Sundar Kand Paath or Hanuman Pooja',
                     'Cultural performances and Ram Leela (optional)'
                 ]
             },
@@ -132,13 +132,13 @@ This katha fosters spiritual empowerment and connects the listener to divine mot
 
 
         },
-        'shanti-puja': {
+        'shanti-pooja': {
             'kaal-sarp-yog': {
-                name: 'Kaal Sarp Yog Puja',
-                description: 'Kaal Sarp Yog is a significant astrological condition that occurs when all seven planets are positioned between Rahu and Ketu in one\'s birth chart. This powerful remedial puja helps neutralize its malefic effects.',
+                name: 'Kaal Sarp Yog Pooja',
+                description: 'Kaal Sarp Yog is a significant astrological condition that occurs when all seven planets are positioned between Rahu and Ketu in one\'s birth chart. This powerful remedial pooja helps neutralize its malefic effects.',
                 fullDescription: `Kaal Sarp Yog occurs in a person's horoscope when all the seven planets (Sun, Moon, Mars, Mercury, Jupiter, Venus, and Saturn) are hemmed between the shadow planets Rahu and Ketu. This creates challenges in various aspects of life including career, relationships, health, and spiritual growth.
 
-      The Kaal Sarp Yog Puja is specifically designed to pacify the malefic effects of this planetary combination. The ritual involves specific mantras, offerings, and ceremonies that are performed with great devotion and precision. The puja creates positive vibrations that help balance the planetary energies and reduce their negative impact.
+      The Kaal Sarp Yog Pooja is specifically designed to pacify the malefic effects of this planetary combination. The ritual involves specific mantras, offerings, and ceremonies that are performed with great devotion and precision. The pooja creates positive vibrations that help balance the planetary energies and reduce their negative impact.
 
       This sacred ceremony is best performed at sacred places like Trimbakeshwar, Ujjain, or Nashik, but can also be conducted at home with proper arrangements. The ritual requires specific items, mantras, and procedures that our experienced pandits perform with complete authenticity.`,
                 image: '/images/services/kaal-sarp-yog.jpg',
@@ -159,7 +159,7 @@ This katha fosters spiritual empowerment and connects the listener to divine mot
                     'Nagbali and Kaal Sarp Yog specific rituals',
                     'Havan with prescribed herbs',
                     'Donation and charity guidance',
-                    'Post-puja spiritual consultation'
+                    'Post-pooja spiritual consultation'
                 ]
             },
 
@@ -190,17 +190,17 @@ The ceremony is best conducted in holy sites like Trimbakeshwar or Gaya but can 
                     'Pitrushraddh with offerings (Pind Daan, Tarpan)',
                     'Shraddh bhojan arrangements and Brahmin donations',
                     'Havan for Pitru Shanti',
-                    'Spiritual consultation and post-puja remedies'
+                    'Spiritual consultation and post-pooja remedies'
                 ]
             },
             'nakshatra-shanti': {
-                name: 'Nakshatra Shanti Puja',
-                description: 'This puja pacifies the birth star (Nakshatra) to eliminate doshas and bring emotional, spiritual, and physical balance to one’s life.',
-                fullDescription: `Nakshatra Shanti Puja is performed to appease the ruling Nakshatra (birth star) and its presiding deity, especially when the birth star is afflicted or during critical life events. Each Nakshatra influences one’s destiny, and when it's under malefic influence, it can cause various personal and professional disturbances.
+                name: 'Nakshatra Shanti Pooja',
+                description: 'This pooja pacifies the birth star (Nakshatra) to eliminate doshas and bring emotional, spiritual, and physical balance to one’s life.',
+                fullDescription: `Nakshatra Shanti Pooja is performed to appease the ruling Nakshatra (birth star) and its presiding deity, especially when the birth star is afflicted or during critical life events. Each Nakshatra influences one’s destiny, and when it's under malefic influence, it can cause various personal and professional disturbances.
 
 This ritual is recommended for individuals facing unexplained delays, health concerns, emotional turbulence, or instability due to Nakshatra-related doshas. It is also beneficial during childbirth, birthdays, or Nakshatra transit periods.
 
-The puja involves personalized rituals and mantras based on the individual’s Nakshatra and is performed by experienced priests with Vedic precision.`,
+The pooja involves personalized rituals and mantras based on the individual’s Nakshatra and is performed by experienced priests with Vedic precision.`,
 
                 image: '/images/services/nakshatra.jpg',
                 duration: '1 Day (3-5 Hours)',
@@ -215,19 +215,19 @@ The puja involves personalized rituals and mantras based on the individual’s N
                 ],
                 includes: [
                     'Personalized horoscope and Nakshatra analysis',
-                    'Special puja to Nakshatra devata',
+                    'Special pooja to Nakshatra devata',
                     'Recitation of specific Nakshatra mantras',
                     'Havan with Nakshatra-aligned herbs and offerings',
                     'Charity and donations based on Nakshatra dosha',
-                    'Post-puja remedial suggestions'
+                    'Post-pooja remedial suggestions'
                 ]
             },
             'vastu-shanti': {
-                name: 'Vastu Shanti Puja',
+                name: 'Vastu Shanti Pooja',
                 description: 'A sacred ritual performed to remove Vastu Dosha and harmonize the energy of a space for peace, prosperity, and well-being.',
-                fullDescription: `Vastu Shanti Puja is performed to correct imbalances in a home or office due to architectural or directional flaws as per Vastu Shastra. Such imbalances, known as Vastu Dosha, can cause health issues, financial instability, family disputes, and general discomfort in the space.
+                fullDescription: `Vastu Shanti Pooja is performed to correct imbalances in a home or office due to architectural or directional flaws as per Vastu Shastra. Such imbalances, known as Vastu Dosha, can cause health issues, financial instability, family disputes, and general discomfort in the space.
 
-This puja invokes blessings of Vastu Purusha and the ruling deities of the eight directions. It is highly recommended before entering a new property, during renovation, or when experiencing persistent negativity or setbacks at home or work.
+This pooja invokes blessings of Vastu Purusha and the ruling deities of the eight directions. It is highly recommended before entering a new property, during renovation, or when experiencing persistent negativity or setbacks at home or work.
 
 Our expert priests conduct this ritual with Vedic procedures to energize the environment and invite harmony, happiness, and divine protection into the premises.`,
 
@@ -252,11 +252,11 @@ Our expert priests conduct this ritual with Vedic procedures to energize the env
                 ]
             },
             'nav-grah-shanti': {
-                name: 'Nav Grah Shanti Puja',
+                name: 'Nav Grah Shanti Pooja',
                 description: 'A powerful Vedic ritual to pacify all nine planetary deities and reduce their malefic influence for overall well-being and success.',
-                fullDescription: `Nav Grah Shanti Puja is performed to appease the nine planetary deities—Surya (Sun), Chandra (Moon), Mangal (Mars), Budh (Mercury), Guru (Jupiter), Shukra (Venus), Shani (Saturn), Rahu, and Ketu. These planets significantly influence one’s destiny, karma, health, and prosperity.
+                fullDescription: `Nav Grah Shanti Pooja is performed to appease the nine planetary deities—Surya (Sun), Chandra (Moon), Mangal (Mars), Budh (Mercury), Guru (Jupiter), Shukra (Venus), Shani (Saturn), Rahu, and Ketu. These planets significantly influence one’s destiny, karma, health, and prosperity.
 
-When planetary positions in the birth chart are unfavorable, it may lead to delays, losses, health issues, and mental stress. This puja is especially recommended during major life transitions, Sade Sati, Rahu-Ketu Mahadasha, or planetary transits.
+When planetary positions in the birth chart are unfavorable, it may lead to delays, losses, health issues, and mental stress. This pooja is especially recommended during major life transitions, Sade Sati, Rahu-Ketu Mahadasha, or planetary transits.
 
 Our experienced priests conduct this ritual with Vedic chants, havan, and offerings specific to each planet, helping to neutralize negative energies and invoke divine grace.`,
 
@@ -277,7 +277,7 @@ Our experienced priests conduct this ritual with Vedic chants, havan, and offeri
                     'Havan with specific offerings for each planet',
                     'Installation of Navgraha yantras if required',
                     'Donation and charity as per Graha Shanti rituals',
-                    'Post-puja remedies and planetary alignment suggestions'
+                    'Post-pooja remedies and planetary alignment suggestions'
                 ]
             }
         },
@@ -287,7 +287,7 @@ Our experienced priests conduct this ritual with Vedic chants, havan, and offeri
                 description: 'A sacred Vedic ritual uniting two souls in a spiritual, emotional, and social bond for a lifetime of harmony and prosperity.',
                 fullDescription: `The Marriage Ceremony, also known as Vivah Sanskar, is one of the most important and auspicious rites of passage in Hindu culture. This sacred union is not just a physical or emotional bond but a spiritual commitment between two individuals, witnessed by the deities, family, and society.
 
-The ceremony involves a sequence of rituals including Ganesh Puja, Kanyadaan, Vivaah Homa, Mangal Pheras, Saptapadi, and Sindoor Daan, all conducted as per traditional Vedic scriptures. Each ritual carries deep spiritual and symbolic significance, aiming to bless the couple with love, prosperity, fertility, and lifelong companionship.
+The ceremony involves a sequence of rituals including Ganesh Pooja, Kanyadaan, Vivaah Homa, Mangal Pheras, Saptapadi, and Sindoor Daan, all conducted as per traditional Vedic scriptures. Each ritual carries deep spiritual and symbolic significance, aiming to bless the couple with love, prosperity, fertility, and lifelong companionship.
 
 Our team ensures complete Vedic authenticity, customized arrangements based on regional traditions, and a seamless ceremonial experience for the bride, groom, and families.`,
 
@@ -306,7 +306,7 @@ Our team ensures complete Vedic authenticity, customized arrangements based on r
                     'Muhurat (auspicious date & time) selection via horoscope',
                     'Mandap setup and decoration guidance',
                     'Complete set of Vedic marriage rituals',
-                    'Puja samagri (items) and priest arrangements',
+                    'Pooja samagri (items) and priest arrangements',
                     'Sankalp and family participation coordination',
                     'Post-marriage grihapravesh & blessings rituals'
                 ]
@@ -361,11 +361,11 @@ It is especially effective when performed during auspicious days like Maha Shivr
                     'Spiritual growth and divine blessings from Lord Shiva'
                 ],
                 includes: [
-                    'Sankalp and Gauri Ganesh Puja',
+                    'Sankalp and Gauri Ganesh Pooja',
                     'Rudra Sukta chanting and japa',
                     'Offerings to the sacred fire with herbs and ghee',
                     'Kalash Sthapana and Abhishek items',
-                    'Havan samagri and puja items included',
+                    'Havan samagri and pooja items included',
                     'Post-havan advice and spiritual guidance'
                 ]
             },
@@ -374,7 +374,7 @@ It is especially effective when performed during auspicious days like Maha Shivr
                 description: 'A divine fire ritual invoking Goddess Lakshmi through Sri Suktam mantras to attract wealth, prosperity, and auspiciousness.',
                 fullDescription: `Sri Suktam Havan is a sacred Vedic ritual dedicated to Goddess Mahalakshmi, the deity of wealth, fortune, and prosperity. It involves the chanting of the revered Sri Suktam hymns from the Rigveda and offering sacred items into the fire to invoke her divine presence and blessings.
 
-This havan is highly recommended for those seeking financial stability, growth in business, removal of poverty, and the elimination of misfortune. It is best performed during Fridays, full moon days, Diwali, or any auspicious Lakshmi puja occasions.
+This havan is highly recommended for those seeking financial stability, growth in business, removal of poverty, and the elimination of misfortune. It is best performed during Fridays, full moon days, Diwali, or any auspicious Lakshmi pooja occasions.
 
 Through this havan, one not only attracts material wealth but also spiritual richness and inner contentment by aligning with divine energies.`,
 
@@ -535,7 +535,7 @@ The ceremony is conducted at home or in a temple, with the presence of family, e
                     'Initiates child into family traditions and culture'
                 ],
                 includes: [
-                    'Ganesh Puja and Sankalp',
+                    'Ganesh Pooja and Sankalp',
                     'Chaul (hair cutting) ritual by priest or barber',
                     'Mantra chanting and homa for purification',
                     'Blessings from elders and family members',
@@ -564,7 +564,7 @@ The name chosen reflects the child’s astrological chart and nakshatra, ensurin
                     'Connects child to dharma, culture, and ancestry'
                 ],
                 includes: [
-                    'Ganesh Puja and Sankalp for the newborn',
+                    'Ganesh Pooja and Sankalp for the newborn',
                     'Horoscope-based name suggestion by priest',
                     'Mantra chanting and family blessings',
                     'Aarti and havan for protection and good fortune',
@@ -593,7 +593,7 @@ This sanskar not only uplifts the mother emotionally and spiritually but also cr
                     'Removes doshas or negative planetary influences'
                 ],
                 includes: [
-                    'Ganesh and Gauri Puja for blessings',
+                    'Ganesh and Gauri Pooja for blessings',
                     'Sankalp and ritual for expectant mother',
                     'Chanting of Vedic mantras and shlokas',
                     'Offering of fruits, sweets, bangles, and gifts',
@@ -622,7 +622,7 @@ The ceremony involves purificatory rituals, chanting of mantras, fire rituals (h
                     'Strengthens connection to dharma and tradition'
                 ],
                 includes: [
-                    'Ganesh Puja and Sankalp',
+                    'Ganesh Pooja and Sankalp',
                     'Havan and purification rituals',
                     'Thread ceremony and wearing of Yagnopavit',
                     'Teaching of Gayatri Mantra and rituals of daily worship',
@@ -631,34 +631,34 @@ The ceremony involves purificatory rituals, chanting of mantras, fire rituals (h
                 ]
             }
         },
-        'sthapan-puja': {
+        'sthapan-pooja': {
             'ghat-sthapna': {
                 name: 'Ghat Sthapna',
                 description: 'A foundational Vedic ritual that marks the beginning of major pujas or festivals, symbolizing the invocation of divine presence.',
-                fullDescription: `Ghat Sthapna, also known as Kalash Sthapana, is a sacred ritual that marks the commencement of major Vedic ceremonies and festivals like Navratri, Durga Puja, or Satyanarayan Katha. It involves the installation of a Kalash (sacred water pot) which represents the divine presence of deities.
+                fullDescription: `Ghat Sthapna, also known as Kalash Sthapana, is a sacred ritual that marks the commencement of major Vedic ceremonies and festivals like Navratri, Durga Pooja, or Satyanarayan Katha. It involves the installation of a Kalash (sacred water pot) which represents the divine presence of deities.
 
 The Kalash is filled with water, topped with mango leaves and a coconut, and decorated with sacred threads and symbols. Mantras and invocations are chanted to invite divine energies to reside in the Kalash throughout the duration of the ritual or festival.
 
-This ritual acts as a spiritual foundation for invoking blessings, prosperity, and success in any puja, yagna, or auspicious occasion.`,
+This ritual acts as a spiritual foundation for invoking blessings, prosperity, and success in any pooja, yagna, or auspicious occasion.`,
 
                 image: '/images/services/ghat-sthapna.jpg',
                 duration: '1 Day (1-2 Hours)',
                 participants: '1-10',
                 price: '₹1,500 - ₹5,000',
                 benefits: [
-                    'Invokes divine presence to sanctify the puja or event',
+                    'Invokes divine presence to sanctify the pooja or event',
                     'Purifies the environment and energizes the space',
                     'Brings auspiciousness and success to rituals',
                     'Ensures spiritual alignment for the ceremony',
                     'Acts as a divine channel for blessings'
                 ],
                 includes: [
-                    'Sankalp and Ganesh Puja',
+                    'Sankalp and Ganesh Pooja',
                     'Preparation and installation of the Kalash',
                     'Chanting of Vedic mantras for invocation',
                     'Decorating the Kalash with coconut, leaves, and symbols',
-                    'Placement as per tradition and puja type',
-                    'Guidance on how to maintain the Kalash during the puja period'
+                    'Placement as per tradition and pooja type',
+                    'Guidance on how to maintain the Kalash during the pooja period'
                 ]
             },
             'rudra-abhishek': {
@@ -691,13 +691,13 @@ Rudra Abhishek is best performed on Mondays, during Shravan month, Maha Shivratr
                 ]
             },
             'laghu-rudra': {
-                name: 'Laghu Rudra Puja',
+                name: 'Laghu Rudra Pooja',
                 description: 'An advanced and powerful Vedic ritual dedicated to Lord Shiva, performed to attain spiritual upliftment, peace, and success in all spheres of life.',
                 fullDescription: `Laghu Rudra is an elaborate and high-energy form of worship dedicated to Lord Shiva, particularly in his Rudra form. It involves the chanting of Rudri (Rudra Namakam and Chamakam) from the Yajurveda 11 times along with powerful Abhishek and homa rituals.
 
 Considered one of the most effective remedies for health, wealth, planetary doshas, and spiritual advancement, Laghu Rudra is ideal for individuals facing major life obstacles, chronic illness, business setbacks, or spiritual stagnation.
 
-This puja is usually performed by a group of Vedic priests over several hours with precise rituals, Abhishek with sacred items, and fire offerings to invoke the blessings of Shiva for total transformation.`,
+This pooja is usually performed by a group of Vedic priests over several hours with precise rituals, Abhishek with sacred items, and fire offerings to invoke the blessings of Shiva for total transformation.`,
 
                 image: '/images/services/laghu-rudra.jpg',
                 duration: '1 Day (6-8 Hours)',
@@ -711,20 +711,20 @@ This puja is usually performed by a group of Vedic priests over several hours wi
                     'Appeasement of malefic planets like Shani, Rahu, and Ketu'
                 ],
                 includes: [
-                    'Sankalp and Ganesh Puja',
+                    'Sankalp and Ganesh Pooja',
                     '11 recitations of Rudram (Namakam + Chamakam)',
                     'Abhishek with 11 sacred items including milk, curd, honey, ghee, and bilva leaves',
                     'Homa with Rudra mantras and fire offerings',
                     'Brahmin Dakshina and donation as per tradition',
-                    'Post-puja guidance for personal and spiritual growth'
+                    'Post-pooja guidance for personal and spiritual growth'
                 ]
             },
             'maha-rudra-pooja': {
-                name: 'Maha Rudra Puja',
+                name: 'Maha Rudra Pooja',
                 description: 'An extensive and highly auspicious ritual invoking Lord Shiva’s energy to eliminate karmic blocks, grant health, wealth, and spiritual liberation.',
-                fullDescription: `Maha Rudra Puja is a grand-scale Vedic ceremony performed to worship Lord Shiva through the 121 recitations of the Rudram (Namakam and Chamakam). It is significantly more powerful than Laghu Rudra and is ideal for those seeking total transformation in life—physically, mentally, and spiritually.
+                fullDescription: `Maha Rudra Pooja is a grand-scale Vedic ceremony performed to worship Lord Shiva through the 121 recitations of the Rudram (Namakam and Chamakam). It is significantly more powerful than Laghu Rudra and is ideal for those seeking total transformation in life—physically, mentally, and spiritually.
 
-This puja is recommended for those facing long-standing obstacles, critical illnesses, family discord, or planetary afflictions. It is also performed by those desiring spiritual elevation, wealth, peace, and fulfillment of desires.
+This Pooja is recommended for those facing long-standing obstacles, critical illnesses, family discord, or planetary afflictions. It is also performed by those desiring spiritual elevation, wealth, peace, and fulfillment of desires.
 
 Performed by a large group of learned Vedic priests, the ritual includes elaborate Abhishek of the Shiva Lingam with sacred items, powerful chanting, and fire offerings. It generates immense spiritual vibrations, creating a protective and transformative energy field around the devotee and family.`,
 
@@ -749,11 +749,11 @@ Performed by a large group of learned Vedic priests, the ritual includes elabora
                 ]
             },
             'ati-rudra-pooja': {
-                name: 'Ati Rudra Puja',
+                name: 'Ati Rudra Pooja',
                 description: 'The highest and most powerful form of Rudra worship, invoking Lord Shiva 14641 times through intense Vedic chanting and rituals for universal peace and personal liberation.',
-                fullDescription: `Ati Rudra Puja is the most elaborate and spiritually intense form of Rudra worship, described in the Yajurveda. It involves the chanting of the Rudram (Namakam and Chamakam) 14641 times—performed by 121 priests over 11 days or in an accelerated format—combined with massive scale Abhishek and homa rituals.
+                fullDescription: `Ati Rudra Pooja is the most elaborate and spiritually intense form of Rudra worship, described in the Yajurveda. It involves the chanting of the Rudram (Namakam and Chamakam) 14641 times—performed by 121 priests over 11 days or in an accelerated format—combined with massive scale Abhishek and homa rituals.
 
-This puja is rarely performed due to its scale, but when done, it brings immense spiritual merit (punya), healing of deep karmic burdens, and divine grace. It is typically organized for global peace, individual moksha (liberation), or for resolution of impossible situations such as incurable diseases, generational curses, or spiritual awakening.
+This pooja is rarely performed due to its scale, but when done, it brings immense spiritual merit (punya), healing of deep karmic burdens, and divine grace. It is typically organized for global peace, individual moksha (liberation), or for resolution of impossible situations such as incurable diseases, generational curses, or spiritual awakening.
 
 It creates powerful spiritual vibrations capable of uplifting entire communities, purifying environments, and invoking the purest aspect of Lord Shiva's compassion and power.`,
 
@@ -769,7 +769,7 @@ It creates powerful spiritual vibrations capable of uplifting entire communities
                     'Invokes the most powerful form of Lord Shiva’s blessings'
                 ],
                 includes: [
-                    'Sankalp and Gauri Ganesh Puja',
+                    'Sankalp and Gauri Ganesh Pooja',
                     '14641 Rudra chantings (121 priests × 121 recitations)',
                     'Grand Rudra Abhishek with 100+ sacred substances',
                     'Multiple homas for universal peace and well-being',
@@ -802,22 +802,22 @@ Performed by experienced priests, this ritual is both spiritually profound and c
                     'Sankalp and Ganapati invocation',
                     'Nyasa and mantra placement in the idol',
                     'Pranpratishtha and Netra (eye-opening) rituals',
-                    'Puja, aarti, havan, and kalash sthapana',
+                    'Pooja, aarti, havan, and kalash sthapana',
                     'Festive celebration with prasad, bhajans, and donation guidance'
                 ]
             }
         },
-        'festival-puja': {
-            'office-puja': {
-                name: 'Office Puja',
+        'festival-pooja': {
+            'office-pooja': {
+                name: 'Office Pooja',
                 description: 'A spiritual ritual conducted to bless your workplace with prosperity, harmony, and success by invoking divine energies.',
-                fullDescription: `Office Puja is a special Vedic ritual performed to purify, energize, and bless a business premises or professional space. It is commonly done during office inaugurations, annual celebrations, or after major renovations. The puja invites divine energies and removes obstacles that may hinder financial growth or team harmony.
+                fullDescription: `Office Pooja is a special Vedic ritual performed to purify, energize, and bless a business premises or professional space. It is commonly done during office inaugurations, annual celebrations, or after major renovations. The pooja invites divine energies and removes obstacles that may hinder financial growth or team harmony.
 
 The ritual includes the worship of Lord Ganesha (remover of obstacles), Goddess Lakshmi (goddess of wealth), and Navagrahas (nine planets) to ensure success in business operations, stability, and positive relationships among employees and clients.
 
-Office Puja can be customized based on the nature of the business and the spiritual preferences of the founders, ensuring a personalized and auspicious start or continuation of professional ventures.`,
+Office Pooja can be customized based on the nature of the business and the spiritual preferences of the founders, ensuring a personalized and auspicious start or continuation of professional ventures.`,
 
-                image: '/images/services/office-puja.png',
+                image: '/images/services/office-pooja.png',
                 duration: '1 Day (1.5-3 Hours)',
                 participants: '5-50',
                 price: '₹3,000 - ₹15,000',
@@ -829,24 +829,24 @@ Office Puja can be customized based on the nature of the business and the spirit
                     'Establishes divine support for new projects and deals'
                 ],
                 includes: [
-                    'Ganesh and Lakshmi Puja with Sankalp',
+                    'Ganesh and Lakshmi Pooja with Sankalp',
                     'Navagraha Shanti and vastu correction rituals',
                     'Havan with herbal samidhas for space purification',
                     'Installation of spiritual yantras or symbols if needed',
                     'Aarti, prasad distribution, and donation guidance',
-                    'Post-puja vastu and spiritual suggestions for office'
+                    'Post-pooja vastu and spiritual suggestions for office'
                 ]
             },
-            'diwali-puja': {
-                name: 'Diwali Puja',
+            'diwali-pooja': {
+                name: 'Diwali Pooja',
                 description: 'A traditional ritual performed on the night of Diwali to invoke Goddess Lakshmi and Lord Ganesha for wealth, happiness, and prosperity.',
-                fullDescription: `Diwali Puja, also known as Lakshmi-Ganesh Puja, is the central ritual of the Diwali festival, performed during the evening hours on the new moon day (Amavasya) of Kartik month. This sacred ceremony is dedicated to Goddess Lakshmi—the goddess of wealth—and Lord Ganesha, the remover of obstacles.
+                fullDescription: `Diwali Pooja, also known as Lakshmi-Ganesh Pooja, is the central ritual of the Diwali festival, performed during the evening hours on the new moon day (Amavasya) of Kartik month. This sacred ceremony is dedicated to Goddess Lakshmi—the goddess of wealth—and Lord Ganesha, the remover of obstacles.
 
-It is believed that on this auspicious night, Lakshmi visits homes that are clean, well-lit, and spiritually prepared. The puja is performed to attract her blessings for wealth, success, harmony, and abundance in the coming year.
+It is believed that on this auspicious night, Lakshmi visits homes that are clean, well-lit, and spiritually prepared. The pooja is performed to attract her blessings for wealth, success, harmony, and abundance in the coming year.
 
 The rituals include traditional offerings, lighting diyas (lamps), chanting mantras, and invoking blessings for business, family, and spiritual growth. It is one of the most spiritually and materially significant pujas of the Hindu calendar.`,
 
-                image: '/images/services/diwali-puja.jpg',
+                image: '/images/services/diwali-pooja.jpg',
                 duration: '1 Day (1.5-2 Hours)',
                 participants: 'Family or Office Members (5-30)',
                 price: '₹2,000 - ₹10,000',
@@ -858,7 +858,7 @@ The rituals include traditional offerings, lighting diyas (lamps), chanting mant
                     'Promotes peace, joy, and divine energy during Diwali'
                 ],
                 includes: [
-                    'Ganesh and Lakshmi Puja with Sankalp',
+                    'Ganesh and Lakshmi Pooja with Sankalp',
                     'Kalash Sthapana and diya lighting',
                     'Chanting of Lakshmi Ashtottara and Ganesh mantras',
                     'Offerings of sweets, coins, flowers, and kumkum',
@@ -866,16 +866,16 @@ The rituals include traditional offerings, lighting diyas (lamps), chanting mant
                     'Optional inclusion of Lakshmi Yantra or coin energization'
                 ]
             },
-            'navratri-puja': {
-                name: 'Navratri Puja',
+            'navratri-pooja': {
+                name: 'Navratri Pooja',
                 description: 'A powerful nine-day worship of Goddess Durga in her nine divine forms to invoke strength, protection, and spiritual energy.',
-                fullDescription: `Navratri Puja is a sacred and spiritually vibrant festival celebrated over nine nights to honor the nine manifestations of Goddess Durga—Shailputri, Brahmacharini, Chandraghanta, Kushmanda, Skandamata, Katyayani, Kalaratri, Mahagauri, and Siddhidatri. Each day is dedicated to one form and involves specific rituals, colors, and offerings.
+                fullDescription: `Navratri Pooja is a sacred and spiritually vibrant festival celebrated over nine nights to honor the nine manifestations of Goddess Durga—Shailputri, Brahmacharini, Chandraghanta, Kushmanda, Skandamata, Katyayani, Kalaratri, Mahagauri, and Siddhidatri. Each day is dedicated to one form and involves specific rituals, colors, and offerings.
 
-The puja involves kalash sthapana (Ghat Sthapna), daily aarti, chanting of Durga Saptashati, and fasting. It helps devotees overcome inner weaknesses, gain spiritual discipline, and receive the powerful blessings of the Divine Mother.
+The pooja involves kalash sthapana (Ghat Sthapna), daily aarti, chanting of Durga Saptashati, and fasting. It helps devotees overcome inner weaknesses, gain spiritual discipline, and receive the powerful blessings of the Divine Mother.
 
 Navratri is observed twice a year—Chaitra (spring) and Sharad (autumn)—and is ideal for spiritual seekers, families, and anyone seeking divine intervention in personal and professional matters.`,
 
-                image: '/images/services/navratri-puja.png',
+                image: '/images/services/navratri-pooja.png',
                 duration: '9 Days (or single day)',
                 participants: 'Individual or Group (5-100)',
                 price: '₹5,000 - ₹50,000 (based on scale)',
@@ -895,16 +895,16 @@ Navratri is observed twice a year—Chaitra (spring) and Sharad (autumn)—and i
                     'Prasad distribution and charity recommendations'
                 ]
             },
-            'durga-puja': {
-                name: 'Durga Puja',
+            'durga-pooja': {
+                name: 'Durga Pooja',
                 description: 'A grand Vedic ritual invoking Goddess Durga to eliminate evil forces, bring divine protection, and ensure victory in life.',
-                fullDescription: `Durga Puja is one of the most powerful and widely celebrated Hindu rituals, dedicated to Goddess Durga—the fierce form of Shakti who destroys evil and protects the righteous. Celebrated especially during the Navratri or Ashwin month, this puja symbolizes the victory of good over evil and is performed to seek strength, courage, and spiritual upliftment.
+                fullDescription: `Durga Pooja is one of the most powerful and widely celebrated Hindu rituals, dedicated to Goddess Durga—the fierce form of Shakti who destroys evil and protects the righteous. Celebrated especially during the Navratri or Ashwin month, this pooja symbolizes the victory of good over evil and is performed to seek strength, courage, and spiritual upliftment.
 
-The puja involves rituals like Kalash Sthapana, Durga Saptashati chanting, Homa (fire offerings), and Aarti. Durga is worshipped in her many forms including Mahakali, Mahalakshmi, and Mahasaraswati. These days are filled with devotion, discipline, and rituals to please the Mother Goddess.
+The pooja involves rituals like Kalash Sthapana, Durga Saptashati chanting, Homa (fire offerings), and Aarti. Durga is worshipped in her many forms including Mahakali, Mahalakshmi, and Mahasaraswati. These days are filled with devotion, discipline, and rituals to please the Mother Goddess.
 
 It is especially recommended during difficult times in life, for those facing internal struggles, enemies, or health issues, or for those embarking on new beginnings.`,
 
-                image: '/images/services/durga-puja.webp',
+                image: '/images/services/durga-pooja.webp',
                 duration: '1-5 Days (customizable)',
                 participants: '10-100+',
                 price: '₹10,000 - ₹1,00,000+',
@@ -918,22 +918,22 @@ It is especially recommended during difficult times in life, for those facing in
                 includes: [
                     'Kalash Sthapana and Durga Avahan',
                     'Durga Saptashati Path (700 verses)',
-                    'Daily puja and aarti with flowers, sweets, and sindoor',
+                    'Daily pooja and aarti with flowers, sweets, and sindoor',
                     'Navagraha and Rahu-Ketu shanti (if needed)',
                     'Havan with sacred herbs and mantras',
-                    'Kanya Puja and Brahmin bhojan (as per tradition)'
+                    'Kanya Pooja and Brahmin bhojan (as per tradition)'
                 ]
             },
-            'lakshmi-puja': {
-                name: 'Lakshmi Puja',
+            'lakshmi-pooja': {
+                name: 'Lakshmi Pooja',
                 description: 'A sacred Vedic ritual to invoke the blessings of Goddess Lakshmi for wealth, prosperity, and abundance in life and business.',
-                fullDescription: `Lakshmi Puja is performed to worship Goddess Lakshmi, the divine embodiment of wealth, fortune, beauty, and auspiciousness. It is most commonly observed during Diwali, Sharad Purnima, or Fridays, and is ideal for individuals, families, and businesses seeking financial growth and harmony.
+                fullDescription: `Lakshmi Pooja is performed to worship Goddess Lakshmi, the divine embodiment of wealth, fortune, beauty, and auspiciousness. It is most commonly observed during Diwali, Sharad Purnima, or Fridays, and is ideal for individuals, families, and businesses seeking financial growth and harmony.
 
-The puja involves invoking Lakshmi with sacred chants, offering lotus flowers, kumkum, rice, sweets, and lighting diyas to invite her into one's home or workplace. The ritual aligns the energy of the space to attract prosperity and removes financial obstacles.
+The pooja involves invoking Lakshmi with sacred chants, offering lotus flowers, kumkum, rice, sweets, and lighting diyas to invite her into one's home or workplace. The ritual aligns the energy of the space to attract prosperity and removes financial obstacles.
 
 Goddess Lakshmi is also worshipped in her eight forms (Ashta Lakshmi), each representing different facets of abundance—wealth, courage, wisdom, progeny, victory, and more.`,
 
-                image: '/images/services/lakshmi-puja.jpg',
+                image: '/images/services/lakshmi-pooja.jpg',
                 duration: '1 Day (1.5-2 Hours)',
                 participants: 'Family or Business Team (5-25)',
                 price: '₹2,000 - ₹12,000',
@@ -953,16 +953,16 @@ Goddess Lakshmi is also worshipped in her eight forms (Ashta Lakshmi), each repr
                     'Spiritual guidance and dosh nivaran (if applicable)'
                 ]
             },
-            'vishwakarma-puja': {
-                name: 'Vishwakarma Puja',
+            'vishwakarma-pooja': {
+                name: 'Vishwakarma Pooja',
                 description: 'A ritual dedicated to Lord Vishwakarma, the divine architect, performed to bless tools, machines, and workplaces for success and innovation.',
-                fullDescription: `Vishwakarma Puja is a traditional Vedic ritual performed in honor of Lord Vishwakarma, the celestial engineer and architect of the universe. It is especially significant for engineers, architects, craftsmen, industrial workers, and businesses involving tools and machinery.
+                fullDescription: `Vishwakarma Pooja is a traditional Vedic ritual performed in honor of Lord Vishwakarma, the celestial engineer and architect of the universe. It is especially significant for engineers, architects, craftsmen, industrial workers, and businesses involving tools and machinery.
 
-This puja is usually observed on Vishwakarma Jayanti (following Ganesh Chaturthi or in September) and involves the ritualistic worship of instruments, machines, tools, and vehicles to ensure productivity, safety, and divine blessings for creative success.
+This pooja is usually observed on Vishwakarma Jayanti (following Ganesh Chaturthi or in September) and involves the ritualistic worship of instruments, machines, tools, and vehicles to ensure productivity, safety, and divine blessings for creative success.
 
 Lord Vishwakarma is revered as the originator of craftsmanship, innovation, and industry. His blessings are sought for efficiency, quality workmanship, and smooth functioning of all equipment and business operations.`,
 
-                image: '/images/services/vishwakarma-puja.jpg',
+                image: '/images/services/vishwakarma-pooja.jpg',
                 duration: '1 Day (1.5–3 Hours)',
                 participants: '5–50 (workers, staff, family)',
                 price: '₹2,500 – ₹15,000',
@@ -976,22 +976,22 @@ Lord Vishwakarma is revered as the originator of craftsmanship, innovation, and 
                 includes: [
                     'Sankalp and Ganapati invocation',
                     'Lord Vishwakarma idol or yantra installation',
-                    'Puja and chanting with flowers, incense, and tools',
+                    'Pooja and chanting with flowers, incense, and tools',
                     'Tool/machine decoration and aarti',
                     'Prasad distribution to workers and staff',
                     'Spiritual guidance and vastu suggestions (optional)'
                 ]
             },
-            'ganesh-puja': {
-                name: 'Ganesh Puja',
+            'ganesh-pooja': {
+                name: 'Ganesh Pooja',
                 description: 'A sacred Vedic ritual to invoke Lord Ganesha’s blessings for wisdom, success, and removal of all obstacles in life’s journey.',
-                fullDescription: `Ganesh Puja is performed to worship Lord Ganesha, the remover of obstacles and the god of wisdom, intellect, and prosperity. It is considered essential before starting any new venture—be it a business, home entry (Griha Pravesh), marriage, or spiritual activity—to ensure success and divine guidance.
+                fullDescription: `Ganesh Pooja is performed to worship Lord Ganesha, the remover of obstacles and the god of wisdom, intellect, and prosperity. It is considered essential before starting any new venture—be it a business, home entry (Griha Pravesh), marriage, or spiritual activity—to ensure success and divine guidance.
 
-Lord Ganesha is invoked through mantras, offerings, and aarti, seeking his grace for a smooth and prosperous path ahead. This puja is especially popular during Ganesh Chaturthi but can be performed on any auspicious occasion or when facing challenges.
+Lord Ganesha is invoked through mantras, offerings, and aarti, seeking his grace for a smooth and prosperous path ahead. This pooja is especially popular during Ganesh Chaturthi but can be performed on any auspicious occasion or when facing challenges.
 
-Ganesh Puja not only removes material obstacles but also clears internal confusion, brings mental peace, and enhances clarity in decision-making.`,
+Ganesh Pooja not only removes material obstacles but also clears internal confusion, brings mental peace, and enhances clarity in decision-making.`,
 
-                image: '/images/services/ganesh-puja.jpeg',
+                image: '/images/services/ganesh-pooja.jpeg',
                 duration: '1 Day (1–2 Hours)',
                 participants: 'Family or Individual (1–25)',
                 price: '₹1,500 – ₹8,000',
@@ -1007,15 +1007,15 @@ Ganesh Puja not only removes material obstacles but also clears internal confusi
                     'Offerings of durva grass, modaks, flowers, and incense',
                     'Ganesh mantra japa and stotra recitation',
                     'Aarti, prasad distribution, and Ganesh idol/yantra pujan',
-                    'Post-puja guidance for ongoing blessings'
+                    'Post-pooja guidance for ongoing blessings'
                 ]
             },
             'satyanarayan-katha': {
                 name: 'Satyanarayan Katha',
                 description: 'A sacred storytelling ritual dedicated to Lord Vishnu, performed for peace, prosperity, and fulfillment of wishes.',
-                fullDescription: `Satyanarayan Katha is a highly auspicious Hindu ritual that involves the worship of Lord Satyanarayan, a benevolent form of Lord Vishnu. It is performed to express gratitude and seek blessings for peace, prosperity, and success in personal or professional life. The ritual includes a puja followed by the recitation of the Satyanarayan Katha (story) that emphasizes the importance of truth, devotion, and righteousness.
+                fullDescription: `Satyanarayan Katha is a highly auspicious Hindu ritual that involves the worship of Lord Satyanarayan, a benevolent form of Lord Vishnu. It is performed to express gratitude and seek blessings for peace, prosperity, and success in personal or professional life. The ritual includes a pooja followed by the recitation of the Satyanarayan Katha (story) that emphasizes the importance of truth, devotion, and righteousness.
 
-This puja is generally performed on full moon (Purnima) days, housewarming (Griha Pravesh), weddings, anniversaries, birthdays, or after fulfilling a vow. It brings spiritual upliftment and blessings for the entire family.
+This pooja is generally performed on full moon (Purnima) days, housewarming (Griha Pravesh), weddings, anniversaries, birthdays, or after fulfilling a vow. It brings spiritual upliftment and blessings for the entire family.
 
 The Katha is simple yet powerful, and can be done at home with the help of a learned priest, bringing harmony, gratitude, and divine favor into one's life.`,
 
@@ -1031,7 +1031,7 @@ The Katha is simple yet powerful, and can be done at home with the help of a lea
                     'Improves devotion and connection with Lord Vishnu'
                 ],
                 includes: [
-                    'Sankalp and Ganesh Puja',
+                    'Sankalp and Ganesh Pooja',
                     'Kalash Sthapana and Lord Satyanarayan worship',
                     'Recitation of all five chapters of the Satyanarayan Katha',
                     'Offerings of Panchamrit, fruits, and sukhdi or sheera (sweet)',
@@ -1067,7 +1067,7 @@ The Katha is simple yet powerful, and can be done at home with the help of a lea
                     <div className="flex items-center justify-between h-16">
                         <Link href="/" className="flex items-center space-x-2">
                             <div className="text-2xl">🕉️</div>
-                            <h1 className="text-xl font-bold">Pujaari Ji</h1>
+                            <h1 className="text-xl font-bold">Poojari Ji</h1>
                         </Link>
                         <Link href={`/services/${category}`}>
                             <Button variant="secondary" size="sm">
@@ -1188,7 +1188,7 @@ The Katha is simple yet powerful, and can be done at home with the help of a lea
                                 <CardHeader>
                                     <CardTitle>Book This Service</CardTitle>
                                     <CardDescription>
-                                        Contact us to schedule your puja ceremony
+                                        Contact us to schedule your pooja ceremony
                                     </CardDescription>
                                 </CardHeader>
                                 <CardContent className="space-y-4">
@@ -1208,7 +1208,7 @@ The Katha is simple yet powerful, and can be done at home with the help of a lea
                                             </div>
                                             <div className="flex items-center">
                                                 <Mail className="h-4 w-4 mr-2 text-orange-600" />
-                                                <span>info@pujaariji.in</span>
+                                                <span>info@poojariji.in</span>
                                             </div>
                                             <div className="flex items-center">
                                                 <MapPin className="h-4 w-4 mr-2 text-orange-600" />

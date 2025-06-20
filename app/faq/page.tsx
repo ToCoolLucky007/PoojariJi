@@ -9,11 +9,11 @@ const faqs = [
     category: "General Questions",
     questions: [
       {
-        question: "What is PujaariJi?",
-        answer: "PujaariJi is a platform that connects devotees with qualified and experienced pandits for various Hindu religious ceremonies, pujas, and rituals. We ensure authentic services performed according to traditional Vedic practices."
+        question: "What is PoojariJi?",
+        answer: "PoojariJi is a platform that connects devotees with qualified and experienced pandits for various Hindu religious ceremonies, pujas, and rituals. We ensure authentic services performed according to traditional Vedic practices."
       },
       {
-        question: "How do I book a puja or ceremony?",
+        question: "How do I book a pooja or ceremony?",
         answer: "You can book a service by visiting our website, selecting the desired ceremony, filling out the booking form with your details, and submitting it. Our team will contact you within 24 hours to confirm your booking and discuss the details."
       },
       {
@@ -51,8 +51,8 @@ const faqs = [
     category: "Service Details",
     questions: [
       {
-        question: "What's included in 'Puja with Samagri'?",
-        answer: "When you select 'Puja with Samagri', we provide all necessary materials including flowers, fruits, sweets, incense, diyas, sacred thread, rice, turmeric, vermillion, and other required items specific to your chosen ceremony."
+        question: "What's included in 'Pooja with Samagri'?",
+        answer: "When you select 'Pooja with Samagri', we provide all necessary materials including flowers, fruits, sweets, incense, diyas, sacred thread, rice, turmeric, vermillion, and other required items specific to your chosen ceremony."
       },
       {
         question: "How long do different ceremonies typically take?",
@@ -134,7 +134,7 @@ export default function FAQ() {
           <div className="flex items-center justify-between h-16">
             <Link href="/" className="flex items-center space-x-2">
               <div className="text-2xl">🕉️</div>
-              <h1 className="text-xl font-bold">Pujaari Ji</h1>
+              <h1 className="text-xl font-bold">Poojari Ji</h1>
             </Link>
             <Link href="/">
               <Button variant="secondary" size="sm">
@@ -202,7 +202,7 @@ export default function FAQ() {
               </div>
               <div>
                 <h4 className="font-semibold text-orange-700 mb-2">Email Support</h4>
-                <p>support@pujaariji.in</p>
+                <p>support@poojariji.in</p>
                 <p className="text-gray-600">Response within 4 hours</p>
               </div>
               <div>

@@ -14,16 +14,16 @@ import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 const services = [
   // Puran Katha
   'Bhagwat Katha', 'Shiv Maha Puran', 'Ram Katha', 'Shrimad Devi Bhagwat Puran',
-  // Shanti Puja
+  // Shanti Pooja
   'Narayanbali Pitrushraddh Vidhi', 'Kaal Sarp Yog', 'Nakshatra Shanti', 'Vastu Shanti', 'Nav Grah Shanti',
   // Havan
   'Marriage Ceremony', 'Shat Chandi Yagna', 'Rudra Havan', 'Sri Suktam Havan', 'Maha Mrityunjay Jap', 'Vishnu Yagna', 'Ganesh Yagna', 'Navchandi Yagna',
   // Sanskar Vidhi
   'Chaul Sanskar', 'Namkaran Sanskar', 'Srimant Sanskar', 'Yagnopavit Sanskar',
-  // Sthapan Puja
+  // Sthapan Pooja
   'Ghat Sthapna', 'Rudra Abhishek', 'Laghu Rudra', 'Maha Rudra Pooja', 'Ati Rudra Pooja', 'Murti Pranpratishtha',
-  // Festival Puja
-  'Office Puja', 'Diwali Puja', 'Navratri Puja', 'Durga Puja', 'Lakshmi Puja', 'Vishwakarma Puja', 'Ganesh Puja', 'SatyaNarayan Katha'
+  // Festival Pooja
+  'Office Pooja', 'Diwali Pooja', 'Navratri Pooja', 'Durga Pooja', 'Lakshmi Pooja', 'Vishwakarma Pooja', 'Ganesh Pooja', 'SatyaNarayan Katha'
 ];
 
 export default function Contact() {
@@ -56,7 +56,7 @@ export default function Contact() {
           <div className="flex items-center justify-between h-16">
             <Link href="/" className="flex items-center space-x-2">
               <div className="text-2xl">🕉️</div>
-              <h1 className="text-xl font-bold">Pujaari Ji</h1>
+              <h1 className="text-xl font-bold">Poojari Ji</h1>
             </Link>
             <Link href="/">
               <Button variant="secondary" size="sm">
@@ -163,10 +163,10 @@ export default function Contact() {
                   </Select>
                 </div>
 
-                {/* Puja with Samagri */}
+                {/* Pooja with Samagri */}
                 <div className="space-y-3">
                   <Label className="text-sm font-medium">
-                    Puja with Samagri (All required materials included) *
+                    Pooja with Samagri (All required materials included) *
                   </Label>
                   <RadioGroup
                     value={formData.withSamagri}
@@ -183,7 +183,7 @@ export default function Contact() {
                     </div>
                   </RadioGroup>
                   <p className="text-sm text-gray-600">
-                    Selecting "Yes" includes all necessary puja materials, flowers, fruits, and other required items.
+                    Selecting "Yes" includes all necessary pooja materials, flowers, fruits, and other required items.
                   </p>
                 </div>
 
@@ -195,7 +195,7 @@ export default function Contact() {
                   </Label>
                   <Textarea
                     id="address"
-                    placeholder="Enter your complete address where the puja will be conducted"
+                    placeholder="Enter your complete address where the pooja will be conducted"
                     value={formData.address}
                     onChange={(e) => handleInputChange('address', e.target.value)}
                     required
@@ -276,7 +276,7 @@ export default function Contact() {
             <div>
               <Mail className="h-8 w-8 mx-auto mb-4" />
               <h3 className="text-xl font-semibold mb-2">Email Us</h3>
-              <p className="text-lg">info@pujaariji.in</p>
+              <p className="text-lg">info@poojariji.in</p>
               <p>Response within 4 hours</p>
             </div>
             <div>

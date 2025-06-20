@@ -12,7 +12,7 @@ export default function RefundPolicy() {
           <div className="flex items-center justify-between h-16">
             <Link href="/" className="flex items-center space-x-2">
               <div className="text-2xl">🕉️</div>
-              <h1 className="text-xl font-bold">Pujaari Ji</h1>
+              <h1 className="text-xl font-bold">Poojari Ji</h1>
             </Link>
             <Link href="/">
               <Button variant="secondary" size="sm">
@@ -44,7 +44,7 @@ export default function RefundPolicy() {
             <div className="space-y-8">
               <section>
                 <h2 className="text-xl font-semibold mb-4">1. General Refund Policy</h2>
-                <p>At PujaariJi, we strive to provide the best religious services. However, we understand that circumstances may require cancellations. Our refund policy is designed to be fair to both our customers and service providers.</p>
+                <p>At PoojariJi, we strive to provide the best religious services. However, we understand that circumstances may require cancellations. Our refund policy is designed to be fair to both our customers and service providers.</p>
               </section>
 
               <section>
@@ -137,7 +137,7 @@ export default function RefundPolicy() {
                 <ul className="list-disc pl-6 space-y-2">
                   <li>Convenience fees and service charges</li>
                   <li>Third-party booking platform fees</li>
-                  <li>Puja materials and samagri (if already purchased)</li>
+                  <li>Pooja materials and samagri (if already purchased)</li>
                   <li>Travel expenses for outstation services</li>
                 </ul>
               </section>
@@ -168,7 +168,7 @@ export default function RefundPolicy() {
                 <h2 className="text-xl font-semibold mb-4">9. Contact for Refunds</h2>
                 <p className="mb-4">For refund requests or questions:</p>
                 <ul className="list-none space-y-2">
-                  <li><strong>Email:</strong> info@pujaariji.in</li>
+                  <li><strong>Email:</strong> info@poojariji.in</li>
                   <li><strong>Phone:</strong> +91 9310065609</li>
                   <li><strong>WhatsApp:</strong> +91 9310065609</li>
                   <li><strong>Hours:</strong> 9:00 AM - 8:00 PM (Monday to Sunday)</li>

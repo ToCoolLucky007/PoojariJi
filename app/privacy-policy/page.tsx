@@ -12,7 +12,7 @@ export default function PrivacyPolicy() {
           <div className="flex items-center justify-between h-16">
             <Link href="/" className="flex items-center space-x-2">
               <div className="text-2xl">🕉️</div>
-              <h1 className="text-xl font-bold">Pujaari Ji</h1>
+              <h1 className="text-xl font-bold">Poojari Ji</h1>
             </Link>
             <Link href="/">
               <Button variant="secondary" size="sm">
@@ -37,7 +37,7 @@ export default function PrivacyPolicy() {
 
         <Card className="shadow-lg">
           <CardHeader>
-            <CardTitle className="text-2xl">Privacy Policy for PujaariJi</CardTitle>
+            <CardTitle className="text-2xl">Privacy Policy for PoojariJi</CardTitle>
             <p className="text-gray-600">Last updated: June 1, 2025</p>
           </CardHeader>
           <CardContent className="prose prose-lg max-w-none">
@@ -114,7 +114,7 @@ export default function PrivacyPolicy() {
                 <h2 className="text-xl font-semibold mb-4">9. Contact Us</h2>
                 <p className="mb-4">If you have any questions about this privacy policy, please contact us:</p>
                 <ul className="list-none space-y-2">
-                  <li><strong>Email:</strong> info@pujaariji.in</li>
+                  <li><strong>Email:</strong> info@poojariji.in</li>
                   <li><strong>Phone:</strong> +91 9310065609</li>
                   <li><strong>Address:</strong> 9th Floor, Tricity Trade Tower, Zirakpur, Punjab, India - 140603</li>
                 </ul>

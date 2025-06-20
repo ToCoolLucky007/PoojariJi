@@ -12,7 +12,7 @@ export default function TermsOfService() {
           <div className="flex items-center justify-between h-16">
             <Link href="/" className="flex items-center space-x-2">
               <div className="text-2xl">🕉️</div>
-              <h1 className="text-xl font-bold">Pujaari Ji</h1>
+              <h1 className="text-xl font-bold">Poojari Ji</h1>
             </Link>
             <Link href="/">
               <Button variant="secondary" size="sm">
@@ -37,27 +37,27 @@ export default function TermsOfService() {
 
         <Card className="shadow-lg">
           <CardHeader>
-            <CardTitle className="text-2xl">Terms of Service for PujaariJi</CardTitle>
+            <CardTitle className="text-2xl">Terms of Service for PoojariJi</CardTitle>
             <p className="text-gray-600">Last updated: June 1, 2025</p>
-            <p>Welcome to Pujaari Ji, a product and brand owned and operated by Bhudhar Software LLP, the parent company of Pujaari Ji. Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the Pujaari Ji website and services (the "Service") provided by Bhudhar Software LLP ("us", "we", or "our").</p>
+            <p>Welcome to Poojari Ji, a product and brand owned and operated by Bhudhar Software LLP, the parent company of Poojari Ji. Please read these Terms and Conditions ("Terms", "Terms and Conditions") carefully before using the Poojari Ji website and services (the "Service") provided by Bhudhar Software LLP ("us", "we", or "our").</p>
           </CardHeader>
           <CardContent className="prose prose-lg max-w-none">
             <div className="space-y-8">
               <section>
                 <h2 className="text-xl font-semibold mb-4">1. Acceptance of Terms</h2>
-                <p>By accessing and using PujaariJi's services, you accept and agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services.</p>
+                <p>By accessing and using PoojariJi's services, you accept and agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our services.</p>
               </section>
 
               <section>
                 <h2 className="text-xl font-semibold mb-4">2. Description of Service</h2>
-                <p className="mb-4">PujaariJi provides a platform that connects users with qualified pandits for various Hindu religious ceremonies and rituals including:</p>
+                <p className="mb-4">PoojariJi provides a platform that connects users with qualified pandits for various Hindu religious ceremonies and rituals including:</p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>Puran Katha and religious narrations</li>
-                  <li>Shanti Puja and peace ceremonies</li>
+                  <li>Shanti Pooja and peace ceremonies</li>
                   <li>Havan and fire rituals</li>
                   <li>Sanskar Vidhi and life ceremonies</li>
-                  <li>Sthapan Puja and installation ceremonies</li>
-                  <li>Festival celebrations and seasonal pujas</li>
+                  <li>Sthapan Pooja and installation ceremonies</li>
+                  <li>Festival celebrations and seasonal poojas</li>
                 </ul>
               </section>
 
@@ -100,12 +100,12 @@ export default function TermsOfService() {
 
               <section>
                 <h2 className="text-xl font-semibold mb-4">6. Intellectual Property</h2>
-                <p>All content on our platform, including text, graphics, logos, and software, is owned by PujaariJi and protected by intellectual property laws. You may not reproduce, distribute, or create derivative works without our written permission.</p>
+                <p>All content on our platform, including text, graphics, logos, and software, is owned by PoojariJi and protected by intellectual property laws. You may not reproduce, distribute, or create derivative works without our written permission.</p>
               </section>
 
               <section>
                 <h2 className="text-xl font-semibold mb-4">7. Limitation of Liability</h2>
-                <p>PujaariJi shall not be liable for any indirect, incidental, special, or consequential damages arising from the use of our services. Our total liability shall not exceed the amount paid for the specific service in question.</p>
+                <p>PoojariJi shall not be liable for any indirect, incidental, special, or consequential damages arising from the use of our services. Our total liability shall not exceed the amount paid for the specific service in question.</p>
               </section>
 
               <section>
@@ -127,7 +127,7 @@ export default function TermsOfService() {
                 <h2 className="text-xl font-semibold mb-4">11. Contact Information</h2>
                 <p className="mb-4">For questions about these terms, please contact us:</p>
                 <ul className="list-none space-y-2">
-                  <li><strong>Email:</strong> info@pujaariji.in</li>
+                  <li><strong>Email:</strong> info@poojariji.in</li>
                   <li><strong>Phone:</strong> +91 9310065609</li>
                   <li><strong>Address:</strong> 9th Floor, Tricity Trade Tower, Zirakpur, Punjab, India - 140603</li>
                 </ul>

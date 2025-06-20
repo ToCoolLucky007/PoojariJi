@@ -32,7 +32,7 @@ export default function ServiceCategory({ category }: { category: string }) {
                     <div className="flex items-center justify-between h-16">
                         <Link href="/" className="flex items-center space-x-2">
                             <div className="text-2xl">🕉️</div>
-                            <h1 className="text-xl font-bold">Pujaari Ji</h1>
+                            <h1 className="text-xl font-bold">Poojari Ji</h1>
                         </Link>
                         <Link href="/">
                             <Button variant="secondary" size="sm">
