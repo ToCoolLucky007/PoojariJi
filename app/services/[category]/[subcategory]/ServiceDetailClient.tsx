@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { serviceDetails } from '@/lib/all-service-paths-data'; // move your `serviceDetails` object into this file or separate module
+import { serviceData } from '@/lib/all-service-paths-data'; // move your `serviceDetails` object into this file or separate module
 
 export default function ServiceDetailClient({ category, subcategory }: { category: string; subcategory: string }) {
 
@@ -1044,7 +1044,7 @@ The Katha is simple yet powerful, and can be done at home with the help of a lea
 
     };
 
-    const service = serviceDetails[category as keyof typeof serviceDetails]?.[subcategory as keyof any];
+    const service = serviceDetails[category as keyof typeof serviceData]?.[subcategory as keyof any];
 
     if (!service) {
         return (
