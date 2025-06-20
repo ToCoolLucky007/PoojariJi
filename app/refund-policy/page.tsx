@@ -155,7 +155,7 @@ export default function RefundPolicy() {
 
               <section>
                 <h2 className="text-xl font-semibold mb-4">8. Quality Guarantee</h2>
-                <p>If you're unsatisfied with our service quality:</p>
+                <p className="mb-4">If you're unsatisfied with our service quality:</p>
                 <ul className="list-disc pl-6 space-y-2">
                   <li>Report issues within 24 hours of service completion</li>
                   <li>We'll investigate and offer appropriate resolution</li>
@@ -168,7 +168,7 @@ export default function RefundPolicy() {
                 <h2 className="text-xl font-semibold mb-4">9. Contact for Refunds</h2>
                 <p className="mb-4">For refund requests or questions:</p>
                 <ul className="list-none space-y-2">
-                  <li><strong>Email:</strong> info@poojariji.in</li>
+                  <li><strong>Email:</strong> support@poojariji.in</li>
                   <li><strong>Phone:</strong> +91 9310065609</li>
                   <li><strong>WhatsApp:</strong> +91 9310065609</li>
                   <li><strong>Hours:</strong> 9:00 AM - 8:00 PM (Monday to Sunday)</li>
