@@ -10,6 +10,8 @@ import { Label } from '@/components/ui/label';
 import { Textarea } from '@/components/ui/textarea';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
 import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
+import { SimpleCaptcha } from '@/components/ui/simplecaptcha';
+
 //lalit
 const services = [
   // Puran Katha
@@ -34,18 +36,69 @@ export default function Booking() {
     service: '',
     withSamagri: '',
     address: '',
-    details: ''
+    details: '',
+    captcha: ''
   });
+
+  const [captchaValue, setCaptchaValue] = useState<string>('');
+  const [captchaError, setCaptchaError] = useState<string>('');
+
 
   const handleInputChange = (field: string, value: string) => {
     setFormData(prev => ({ ...prev, [field]: value }));
+
+    // Clear captcha error when user types in captcha field
+    if (field === 'captcha') {
+      setCaptchaError('');
+    }
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     // Handle form submission here
-    console.log('Form submitted:', formData);
-    alert('Your booking request has been submitted! We will contact you shortly.');
+    // Validate captcha
+    if (formData.captcha !== captchaValue) {
+      setCaptchaError('Captcha is incorrect. Please try again.');
+      return;
+    }
+
+    // Clear any previous captcha errors
+    setCaptchaError('');
+
+    try {
+      const response = await fetch('/api/send-booking', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        alert('Your booking request has been submitted! We will contact you shortly.');
+        setFormData({
+          name: '',
+          email: '',
+          phone: '',
+          service: '',
+          withSamagri: '',
+          address: '',
+          details: '',
+          captcha: ''
+        });
+      } else {
+        alert('Failed to submit booking: ' + result.message);
+      }
+    } catch (error) {
+      console.error(error);
+      alert('Something went wrong while submitting your request.');
+    }
+
+
+    // console.log('Form submitted:', formData);
+    // alert('Your booking request has been submitted! We will contact you shortly.');
   };
 
   return (
@@ -217,7 +270,31 @@ export default function Booking() {
                     className="border-orange-200 focus:border-orange-500 min-h-[120px]"
                   />
                 </div>
+                {/* Captcha Section */}
+                <div className="space-y-4 border-t pt-6">
+                  <SimpleCaptcha
+                    onCaptchaChange={setCaptchaValue}
+                    className="mb-4"
+                  />
 
+                  <div className="space-y-2">
+                    <Label htmlFor="captcha" className="text-sm font-medium">
+                      Enter the result of the calculation above *
+                    </Label>
+                    <Input
+                      id="captcha"
+                      type="text"
+                      placeholder="Enter captcha result"
+                      value={formData.captcha}
+                      onChange={(e) => handleInputChange('captcha', e.target.value)}
+                      required
+                      className="border-orange-200 focus:border-orange-500"
+                    />
+                    {captchaError && (
+                      <p className="text-sm text-red-600 mt-1">{captchaError}</p>
+                    )}
+                  </div>
+                </div>
                 {/* Submit Button */}
                 <div className="pt-6">
                   <Button
