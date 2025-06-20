@@ -64,7 +64,7 @@ export default function Pandits() {
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             <Link href="/" className="flex items-center space-x-2">
-              <div className="text-2xl">🕉️</div>
+              <div className="text-2xl"><img src="/images/logo.png" alt="Poojari Ji" width="70" height="50" /></div>
               <h1 className="text-xl font-bold">Poojari Ji</h1>
             </Link>
             <Link href="/">
@@ -213,7 +213,7 @@ export default function Pandits() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="text-2xl">🕉️</div>
+                <div className="text-2xl"><img src="/images/logo.png" alt="Poojari Ji" width="70" height="50" /></div>
                 <h3 className="text-xl font-bold">Poojari Ji</h3>
               </div>
               <p className="text-gray-400">
