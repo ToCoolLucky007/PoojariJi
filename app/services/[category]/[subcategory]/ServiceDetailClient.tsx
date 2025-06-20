@@ -8,9 +8,26 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { serviceData } from '@/lib/all-service-paths-data'; // move your `serviceDetails` object into this file or separate module
 
 export default function ServiceDetailClient({ category, subcategory }: { category: string; subcategory: string }) {
+    type Service = {
+        name: string;
+        description: string;
+        fullDescription: string;
+        image: string;
+        duration: string;
+        participants: string;
+        price: string;
+        benefits: string[];
+        includes: string[];
+    };
 
+    type ServiceDetails = {
+        [category: string]: {
+            [subcategory: string]: Service;
+        };
+    };
 
-    const serviceDetails = {
+    // const serviceDetails = {
+    const serviceDetails: ServiceDetails = {
         'puran-katha': {
             'bhagwat-katha': {
                 name: 'Bhagwat Katha',
@@ -1044,8 +1061,8 @@ The Katha is simple yet powerful, and can be done at home with the help of a lea
 
     };
 
-    const service = serviceDetails[category as keyof typeof serviceData]?.[subcategory as keyof any];
-
+    // const service = serviceDetails[category as keyof typeof serviceData]?.[subcategory as keyof any];
+    const service = serviceDetails[category]?.[subcategory];
     if (!service) {
         return (
             <div className="min-h-screen bg-gradient-to-br from-orange-50 via-red-50 to-yellow-50 flex items-center justify-center">
