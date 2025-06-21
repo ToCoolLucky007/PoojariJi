@@ -1,29 +1,41 @@
+'use client';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { ArrowLeft, Shield } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export default function PrivacyPolicy() {
+  const [hideHeader, setHideHeader] = useState(false);
+  // Check URL parameters on component mount
+  useEffect(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const source = urlParams.get('source');
+
+    setHideHeader(source === 'app');
+  }, []);
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-50 via-red-50 to-yellow-50">
       {/* Header */}
-      <header className="bg-gradient-to-r from-orange-600 via-red-600 to-orange-700 text-white sticky top-0 z-50 shadow-lg">
-        <div className="container mx-auto px-4">
-          <div className="flex items-center justify-between h-16">
-            <Link href="/" className="flex items-center space-x-2">
-              <div className="text-2xl"><img src="/images/logo.png" alt="Poojari Ji" width="70" height="50" /></div>
-              <h1 className="text-xl font-bold">Poojari Ji</h1>
-            </Link>
-            <Link href="/">
-              <Button variant="secondary" size="sm">
-                <ArrowLeft className="mr-2 h-4 w-4" />
-                Back to Home
-              </Button>
-            </Link>
+      {!hideHeader && (
+        <header className="bg-gradient-to-r from-orange-600 via-red-600 to-orange-700 text-white sticky top-0 z-50 shadow-lg">
+          <div className="container mx-auto px-4">
+            <div className="flex items-center justify-between h-16">
+              <Link href="/" className="flex items-center space-x-2">
+                <div className="text-2xl"><img src="/images/logo.png" alt="Poojari Ji" width="70" height="50" /></div>
+                <h1 className="text-xl font-bold">Poojari Ji</h1>
+              </Link>
+              <Link href="/">
+                <Button variant="secondary" size="sm">
+                  <ArrowLeft className="mr-2 h-4 w-4" />
+                  Back to Home
+                </Button>
+              </Link>
+            </div>
           </div>
-        </div>
-      </header>
-
+        </header>
+      )}
       <div className="container mx-auto px-4 py-16 max-w-4xl">
         <div className="text-center mb-12">
           <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-r from-orange-600 to-red-600 text-white rounded-full mb-6">
