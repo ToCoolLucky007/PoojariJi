@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { ArrowLeft, Download, Send, Calendar, Clock, MapPin, User, Mail, Phone, MessageSquare } from 'lucide-react';
+import { ArrowLeft, Download, Send, Calendar, Clock, MapPin, User, Mail, Phone, MessageSquare, Loader2, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -42,7 +42,9 @@ export default function Booking() {
 
   const [captchaValue, setCaptchaValue] = useState<string>('');
   const [captchaError, setCaptchaError] = useState<string>('');
-
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitProgress, setSubmitProgress] = useState(0);
+  const [submitStatus, setSubmitStatus] = useState<'idle' | 'validating' | 'sending' | 'success' | 'error'>('idle');
 
   const handleInputChange = (field: string, value: string) => {
     setFormData(prev => ({ ...prev, [field]: value }));
@@ -51,6 +53,20 @@ export default function Booking() {
     if (field === 'captcha') {
       setCaptchaError('');
     }
+  };
+
+  const simulateProgress = () => {
+    setSubmitProgress(0);
+    const interval = setInterval(() => {
+      setSubmitProgress(prev => {
+        if (prev >= 90) {
+          clearInterval(interval);
+          return 90;
+        }
+        return prev + Math.random() * 15;
+      });
+    }, 200);
+    return interval;
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -64,8 +80,19 @@ export default function Booking() {
 
     // Clear any previous captcha errors
     setCaptchaError('');
+    setIsSubmitting(true);
+    setSubmitStatus('validating');
+    setSubmitProgress(10);
+
+    // Start progress simulation
+    const progressInterval = simulateProgress();
 
     try {
+      // Simulate validation delay
+      await new Promise(resolve => setTimeout(resolve, 800));
+      setSubmitStatus('sending');
+      setSubmitProgress(30);
+
       const response = await fetch('/api/send-booking', {
         method: 'POST',
         headers: {
@@ -75,28 +102,104 @@ export default function Booking() {
       });
 
       const result = await response.json();
+      // Complete progress
+      clearInterval(progressInterval);
+      setSubmitProgress(100);
 
       if (response.ok) {
-        alert('Your booking request has been submitted! We will contact you shortly.');
-        setFormData({
-          name: '',
-          email: '',
-          phone: '',
-          service: '',
-          withSamagri: '',
-          address: '',
-          details: '',
-          captcha: ''
-        });
+        setSubmitStatus('success');
+        // Show success message after a brief delay
+        setTimeout(() => {
+          alert('Your booking request has been submitted! We will contact you shortly.');
+          setFormData({
+            name: '',
+            email: '',
+            phone: '',
+            service: '',
+            withSamagri: '',
+            address: '',
+            details: '',
+            captcha: ''
+          });
+
+          // Reset states
+          setSubmitStatus('idle');
+          setSubmitProgress(0);
+        }, 1000);
       } else {
-        alert('Failed to submit booking: ' + result.message);
+        setSubmitStatus('error');
+        setTimeout(() => {
+          alert('Failed to submit booking: ' + result.message);
+          setSubmitStatus('idle');
+          setSubmitProgress(0);
+        }, 1000);
       }
     } catch (error) {
+      clearInterval(progressInterval);
       console.error(error);
-      alert('Something went wrong while submitting your request.');
+      setSubmitStatus('error');
+      setSubmitProgress(100);
+
+      setTimeout(() => {
+        alert('Something went wrong while submitting your request.');
+        setSubmitStatus('idle');
+        setSubmitProgress(0);
+      }, 1000);
+    } finally {
+      setTimeout(() => {
+        setIsSubmitting(false);
+      }, 1500);
     }
+  };
+  const getSubmitButtonContent = () => {
+    switch (submitStatus) {
+      case 'validating':
+        return (
+          <>
+            <Loader2 className="mr-2 h-5 w-5 animate-spin" />
+            Validating Information...
+          </>
+        );
+      case 'sending':
+        return (
+          <>
+            <Loader2 className="mr-2 h-5 w-5 animate-spin" />
+            Sending Emails...
+          </>
+        );
+      case 'success':
+        return (
+          <>
+            <CheckCircle className="mr-2 h-5 w-5" />
+            Booking Submitted Successfully!
+          </>
+        );
+      case 'error':
+        return (
+          <>
+            <Loader2 className="mr-2 h-5 w-5 animate-spin" />
+            Processing Error...
+          </>
+        );
+      default:
+        return (
+          <>
+            <Send className="mr-2 h-5 w-5" />
+            Send Booking Request
+          </>
+        );
+    }
+  };
 
-
+  const getButtonColor = () => {
+    switch (submitStatus) {
+      case 'success':
+        return 'bg-green-600 hover:bg-green-700';
+      case 'error':
+        return 'bg-red-600 hover:bg-red-700';
+      default:
+        return 'bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700';
+    }
     // console.log('Form submitted:', formData);
     // alert('Your booking request has been submitted! We will contact you shortly.');
   };
@@ -158,6 +261,7 @@ export default function Booking() {
                       onChange={(e) => handleInputChange('name', e.target.value)}
                       required
                       className="border-orange-200 focus:border-orange-500"
+                      disabled={isSubmitting}
                     />
                   </div>
 
@@ -175,6 +279,7 @@ export default function Booking() {
                       onChange={(e) => handleInputChange('email', e.target.value)}
                       required
                       className="border-orange-200 focus:border-orange-500"
+                      disabled={isSubmitting}
                     />
                   </div>
                 </div>
@@ -193,6 +298,7 @@ export default function Booking() {
                     onChange={(e) => handleInputChange('phone', e.target.value)}
                     required
                     className="border-orange-200 focus:border-orange-500"
+                    disabled={isSubmitting}
                   />
                 </div>
 
@@ -202,7 +308,7 @@ export default function Booking() {
                     <Calendar className="h-4 w-4 mr-2 text-orange-600" />
                     Select Service *
                   </Label>
-                  <Select onValueChange={(value) => handleInputChange('service', value)}>
+                  <Select onValueChange={(value) => handleInputChange('service', value)} disabled={isSubmitting}>
                     <SelectTrigger className="border-orange-200 focus:border-orange-500">
                       <SelectValue placeholder="Choose a service" />
                     </SelectTrigger>
@@ -225,13 +331,14 @@ export default function Booking() {
                     value={formData.withSamagri}
                     onValueChange={(value) => handleInputChange('withSamagri', value)}
                     className="flex space-x-6"
+                    disabled={isSubmitting}
                   >
                     <div className="flex items-center space-x-2">
-                      <RadioGroupItem value="yes" id="samagri-yes" />
+                      <RadioGroupItem value="yes" id="samagri-yes" disabled={isSubmitting} />
                       <Label htmlFor="samagri-yes">Yes</Label>
                     </div>
                     <div className="flex items-center space-x-2">
-                      <RadioGroupItem value="no" id="samagri-no" />
+                      <RadioGroupItem value="no" id="samagri-no" disabled={isSubmitting} />
                       <Label htmlFor="samagri-no">No</Label>
                     </div>
                   </RadioGroup>
@@ -253,6 +360,7 @@ export default function Booking() {
                     onChange={(e) => handleInputChange('address', e.target.value)}
                     required
                     className="border-orange-200 focus:border-orange-500 min-h-[80px]"
+                    disabled={isSubmitting}
                   />
                 </div>
 
@@ -268,6 +376,7 @@ export default function Booking() {
                     value={formData.details}
                     onChange={(e) => handleInputChange('details', e.target.value)}
                     className="border-orange-200 focus:border-orange-500 min-h-[120px]"
+                    disabled={isSubmitting}
                   />
                 </div>
                 {/* Captcha Section */}
@@ -289,21 +398,50 @@ export default function Booking() {
                       onChange={(e) => handleInputChange('captcha', e.target.value)}
                       required
                       className="border-orange-200 focus:border-orange-500"
+                      disabled={isSubmitting}
                     />
                     {captchaError && (
                       <p className="text-sm text-red-600 mt-1">{captchaError}</p>
                     )}
                   </div>
                 </div>
+                {/* Progress Bar */}
+                {isSubmitting && (
+                  <div className="space-y-3 border-t pt-6">
+                    <div className="flex items-center justify-between text-sm">
+                      <span className="font-medium text-gray-700">
+                        {submitStatus === 'validating' && 'Validating your information...'}
+                        {submitStatus === 'sending' && 'Sending confirmation email...'}
+                        {submitStatus === 'success' && 'Booking submitted successfully!'}
+                        {submitStatus === 'error' && 'Processing error occurred...'}
+                      </span>
+                      <span className="text-gray-500">{Math.round(submitProgress)}%</span>
+                    </div>
+                    <div className="w-full bg-gray-200 rounded-full h-2.5 overflow-hidden">
+                      <div
+                        className={`h-2.5 rounded-full transition-all duration-300 ease-out ${submitStatus === 'success' ? 'bg-green-500' :
+                          submitStatus === 'error' ? 'bg-red-500' :
+                            'bg-gradient-to-r from-orange-500 to-red-500'
+                          }`}
+                        style={{ width: `${submitProgress}%` }}
+                      />
+                    </div>
+                    <div className="text-xs text-gray-500 text-center">
+                      Please wait while we process your booking request...
+                    </div>
+                  </div>
+                )}
+
                 {/* Submit Button */}
                 <div className="pt-6">
                   <Button
                     type="submit"
                     size="lg"
-                    className="w-full bg-gradient-to-r from-orange-600 to-red-600 hover:from-orange-700 hover:to-red-700"
+                    className={`w-full transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed ${getButtonColor()}`}
+                    disabled={isSubmitting}
                   >
-                    <Send className="mr-2 h-5 w-5" />
-                    Send Booking Request
+                    {getSubmitButtonContent()}
+
                   </Button>
                 </div>
 
