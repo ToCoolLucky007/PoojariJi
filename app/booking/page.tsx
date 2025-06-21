@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
 import { ArrowLeft, Download, Send, Calendar, Clock, MapPin, User, Mail, Phone, MessageSquare, Loader2, CheckCircle } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -45,15 +45,6 @@ export default function Booking() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitProgress, setSubmitProgress] = useState(0);
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'validating' | 'sending' | 'success' | 'error'>('idle');
-  const [hideHeader, setHideHeader] = useState(false);
-
-  // Check URL parameters on component mount
-  useEffect(() => {
-    const urlParams = new URLSearchParams(window.location.search);
-    const source = urlParams.get('source');
-
-    setHideHeader(source === 'app');
-  }, []);
 
   const handleInputChange = (field: string, value: string) => {
     setFormData(prev => ({ ...prev, [field]: value }));
@@ -216,25 +207,23 @@ export default function Booking() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-orange-50 via-red-50 to-yellow-50">
       {/* Header */}
-
-      {!hideHeader && (
-        <header className="bg-gradient-to-r from-orange-600 via-red-600 to-orange-700 text-white sticky top-0 z-50 shadow-lg">
-          <div className="container mx-auto px-4">
-            <div className="flex items-center justify-between h-16">
-              <Link href="/" className="flex items-center space-x-2">
-                <div className="text-2xl"><img src="/images/logo.png" alt="Poojari Ji" width="70" height="50" /></div>
-                <h1 className="text-xl font-bold">Poojari Ji</h1>
-              </Link>
-              <Link href="/">
-                <Button variant="secondary" size="sm">
-                  <ArrowLeft className="mr-2 h-4 w-4" />
-                  Back to Home
-                </Button>
-              </Link>
-            </div>
+      <header className="bg-gradient-to-r from-orange-600 via-red-600 to-orange-700 text-white sticky top-0 z-50 shadow-lg">
+        <div className="container mx-auto px-4">
+          <div className="flex items-center justify-between h-16">
+            <Link href="/" className="flex items-center space-x-2">
+              <div className="text-2xl"><img src="/images/logo.png" alt="Poojari Ji" width="70" height="50" /></div>
+              <h1 className="text-xl font-bold">Poojari Ji</h1>
+            </Link>
+            <Link href="/">
+              <Button variant="secondary" size="sm">
+                <ArrowLeft className="mr-2 h-4 w-4" />
+                Back to Home
+              </Button>
+            </Link>
           </div>
-        </header>
-      )}
+        </div>
+      </header>
+
       {/* Hero Section */}
       <section className="py-12 bg-gradient-to-r from-orange-600 to-red-600 text-white">
         <div className="container mx-auto px-4 text-center">
