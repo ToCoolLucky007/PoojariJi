@@ -343,6 +343,7 @@ export default function Home() {
                 <li><Link href="/terms-of-service" className="hover:text-white transition-colors">Terms of Service</Link></li>
                 <li><Link href="/refund-policy" className="hover:text-white transition-colors">Refund Policy</Link></li>
                 <li><Link href="/shipping-policy" className="hover:text-white transition-colors">Shipping Policy</Link></li>
+                <li><Link href="/pricing-policy" className="hover:text-white transition-colors">Pricing Policy</Link></li>
                 <li><Link href="/faq" className="hover:text-white transition-colors">FAQ</Link></li>
               </ul>
             </div>
